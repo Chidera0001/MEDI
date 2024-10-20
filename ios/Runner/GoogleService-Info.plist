@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBM7ggri9jlqw-KpuprWo3ZlzdOpVzZRIE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>438983163083</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.mediQuick</string>
+	<key>PROJECT_ID</key>
+	<string>medi-quick-3c551</string>
+	<key>STORAGE_BUCKET</key>
+	<string>medi-quick-3c551.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:438983163083:ios:49428ffe588b7babc1ef4e</string>
+</dict>
+</plist>
