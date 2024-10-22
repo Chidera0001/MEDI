@@ -352,4 +352,3 @@ void _signInWithEmailAndPassword() async {
     );
   }
 }
-
