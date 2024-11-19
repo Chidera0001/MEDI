@@ -13,13 +13,12 @@ class MyAppointmentList extends StatefulWidget {
 
 class _MyAppointmentListState extends State<MyAppointmentList> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
-  final FirebaseFirestore firestore_ = FirebaseFirestore.instance;
   late User user;
   late String _documentID;
 
   Future<void> _getUser() async {
     user = _auth.currentUser!;
-    }
+  }
 
   Future<void> deleteAppointment(String docID) {
     return FirebaseFirestore.instance
@@ -28,16 +27,6 @@ class _MyAppointmentListState extends State<MyAppointmentList> {
         .collection('pending')
         .doc(docID)
         .delete();
-  }
-  Future<void> addAppointment(String docID) async {
-    try {    
-      firestore_.collection("students").doc().set({
-      "name": "Chidera",
-      "email": "anelechidera4@gmail.com",
-      });  
-      } catch (e) {
-        print("registration failed");
-      }
   }
 
   String _dateFormatter(String timestamp) {

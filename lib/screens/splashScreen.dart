@@ -34,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
     if(!context.mounted) return;
       Navigator.of(context).pushReplacement(
       MaterialPageRoute(builder: (context) => user != null ?
-      const HomePage() : const OnBoardingScreen()
+      HomePage() : const OnBoardingScreen()
     )
   );
     
@@ -43,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 14, 39, 93),
+      backgroundColor: Color.fromARGB(255, 14, 39, 93),
       body: Center(
         child: SvgPicture.asset(
           'assets/images/icon.svg',

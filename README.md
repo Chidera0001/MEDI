@@ -86,7 +86,7 @@ flutter run
 ## 👥 Team Members & Contributions
 
 ### Core Development
-- **Chidera Anele** - Team Lead & UI Designer
+- **Chidera Anele** - Team Lead & Front-end
   - Led overall UI/UX design
   - Implemented core application structure:
     - `main.dart`
@@ -102,7 +102,7 @@ flutter run
   - Supporting UI development
 
 ### Booking & Disease Management
-- **King David Chukwumere** - Lead Front-End Developer
+- **King David Chukwumere** - Front-End Developer
   - Developed booking system and disease database:
     - `bookingScreen.dart`
     - `disease.dart`

@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (contex) => const NotificationList()));
+                          builder: (contex) => NotificationList()));
                 },
               ),
             ],
@@ -215,7 +215,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   SizedBox(
                     width: MediaQuery.of(context).size.width,
-                    child: const Carouselslider(),
+                    child: Carouselslider(),
                   ),
                   Container(
                     padding: const EdgeInsets.only(left: 20),
@@ -332,7 +332,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Container(
                     padding: const EdgeInsets.only(left: 15, right: 15),
-                    child: const TopRatedList(),
+                    child: TopRatedList(),
                   ),
                   const SizedBox(
                     height: 20,

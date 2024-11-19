@@ -222,4 +222,3 @@ class OnboardContent extends StatelessWidget {
     );
   }
 }
-
