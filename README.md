@@ -2,8 +2,6 @@
 
 MediQuick is a healthcare appointment booking mobile application designed to bridge the gap between patients and healthcare providers, particularly in regions with limited healthcare infrastructure. Built with Flutter and Firebase, it aims to simplify medical appointment scheduling while contributing to Universal Health Coverage (UHC) goals.
 
-![MediQuick App Home Screen](/assets/images/landing_medi.jpg.png)
-
 ## 🌟 Features
 
 - Easy appointment booking with healthcare providers
