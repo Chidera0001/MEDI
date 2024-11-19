@@ -152,7 +152,7 @@ class _SignInState extends State<SignIn> {
               },
               textInputAction: TextInputAction.done,
               validator: (value) {
-                if (value!.isEmpty) return 'Please enter the Passord';
+                if (value!.isEmpty) return 'Please enter the Password';
                 return null;
               },
               obscureText: true,

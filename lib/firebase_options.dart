@@ -53,11 +53,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB68nfjLjkIVHnS4InVCgYIzblL_qwkAK4',
-    appId: '1:504428186365:android:a6ba7467053063e5934c94',
-    messagingSenderId: '504428186365',
-    projectId: 'my-aid-trial',
-    storageBucket: 'my-aid-trial.appspot.com',
+    apiKey: 'AIzaSyAD2dF28PnvLFGTuVWkikP-1j4-wVDz4Pw',
+    appId: '1:438983163083:android:cabbcab771128082c1ef4e',
+    messagingSenderId: '438983163083',
+    projectId: 'medi-quick-3c551',
+    storageBucket: 'medi-quick-3c551.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(

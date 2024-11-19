@@ -49,7 +49,7 @@ dependencies:
   flutter_font_icons: ^2.2.7
   flutter_icons_null_safety: ^1.1.0
   fake_cloud_firestore: ^2.4.8
-  firebase_core: any
+  firebase_core: ^2.32.0
   font_awesome_flutter: ^10.7.0
   shared_preferences: ^2.2.2
   smooth_page_indicator: ^1.1.0

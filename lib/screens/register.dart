@@ -92,7 +92,8 @@ class _RegisterState extends State<Register> {
               keyboardType: TextInputType.emailAddress,
               controller: _displayName,
               decoration: InputDecoration(
-                contentPadding: const EdgeInsets.only(left: 20, top: 10, bottom: 10),
+                contentPadding:
+                    const EdgeInsets.only(left: 20, top: 10, bottom: 10),
                 border: const OutlineInputBorder(
                   borderRadius: BorderRadius.all(Radius.circular(90.0)),
                   borderSide: BorderSide.none,
@@ -128,7 +129,8 @@ class _RegisterState extends State<Register> {
               keyboardType: TextInputType.emailAddress,
               controller: _emailController,
               decoration: InputDecoration(
-                contentPadding: const EdgeInsets.only(left: 20, top: 10, bottom: 10),
+                contentPadding:
+                    const EdgeInsets.only(left: 20, top: 10, bottom: 10),
                 border: const OutlineInputBorder(
                   borderRadius: BorderRadius.all(Radius.circular(90.0)),
                   borderSide: BorderSide.none,
@@ -170,7 +172,8 @@ class _RegisterState extends State<Register> {
               //keyboardType: TextInputType.visiblePassword,
               controller: _passwordController,
               decoration: InputDecoration(
-                contentPadding: const EdgeInsets.only(left: 20, top: 10, bottom: 10),
+                contentPadding:
+                    const EdgeInsets.only(left: 20, top: 10, bottom: 10),
                 border: const OutlineInputBorder(
                   borderRadius: BorderRadius.all(Radius.circular(90.0)),
                   borderSide: BorderSide.none,
@@ -213,7 +216,8 @@ class _RegisterState extends State<Register> {
               ),
               controller: _passwordConfirmController,
               decoration: InputDecoration(
-                contentPadding: const EdgeInsets.only(left: 20, top: 10, bottom: 10),
+                contentPadding:
+                    const EdgeInsets.only(left: 20, top: 10, bottom: 10),
                 border: const OutlineInputBorder(
                   borderRadius: BorderRadius.all(Radius.circular(90.0)),
                   borderSide: BorderSide.none,
@@ -255,7 +259,9 @@ class _RegisterState extends State<Register> {
                     }
                   },
                   style: ElevatedButton.styleFrom(
-                    foregroundColor: Colors.black, backgroundColor: const Color.fromARGB(255, 14, 39, 93), elevation: 2,
+                    foregroundColor: Colors.black,
+                    backgroundColor: const Color.fromARGB(255, 14, 39, 93),
+                    elevation: 2,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(32.0),
                     ),
@@ -397,7 +403,8 @@ class _RegisterState extends State<Register> {
         children: [
           const CircularProgressIndicator(),
           Container(
-              margin: const EdgeInsets.only(left: 15), child: const Text("Loading...")),
+              margin: const EdgeInsets.only(left: 15),
+              child: const Text("Loading...")),
         ],
       ),
     );
