@@ -15,11 +15,11 @@ MediQuick is a healthcare appointment booking mobile application designed to bri
 
 | Home Screen | Appointment Booking |
 |-------------|-------------------|
-| ![Home](/assets/images/landing_medi.jpg.png) | ![Booking](/assets/images/Book-appointment.jpg.png) 
+| ![Home](/assets/images/landing_medi.png) | ![Booking](/assets/images/Book-appointment.png) 
 
 | User Profile | Notifications | 
 |--------------|---------------|
-| ![Profile](/assets/images/profile_medi.jpg.png) | ![Notifications](/assets/images/appointments-extended_medi.jpg.png) 
+| ![Profile](/assets/images/profile_medi.png)
 
 ## 🛠️ Tech Stack
 
